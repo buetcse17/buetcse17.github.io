@@ -1,2 +1,5 @@
 # buetcse17.github.io
-Static website for basic stuff
+
+## Term Final Questions
+### L3T1
+- [CSE 305](term-final/31/CSE_305_Merged_Upto_16.pdf)
