@@ -1,8 +1,8 @@
-# Citadex
+# _**Citadex**_
 
-### [Google Sheets](https://docs.google.com/spreadsheets/d/1HCQMeqnhiBWMs69CmuT_zrs9kyq03oQm90zL2Uqkxi0/edit?usp=sharing) | [L3-T2](https://drive.google.com/drive/folders/1YWVpCBFEIxGZo2eibGeIVjmn23fr5z2N?usp=sharing)
+## [Google Sheets](https://docs.google.com/spreadsheets/d/1HCQMeqnhiBWMs69CmuT_zrs9kyq03oQm90zL2Uqkxi0/edit?usp=sharing) | [L3-T2 Drive](https://drive.google.com/drive/folders/1YWVpCBFEIxGZo2eibGeIVjmn23fr5z2N?usp=sharing) | [Notice Board](https://buetcse17.github.io/notice/)
 
-#### Archive:
+### Archive
 ##### Level 1
 - [L1-T1](https://drive.google.com/drive/folders/1TWaqAHNZIpYP3guBF7XLFtpoYuk0MZQO?usp=sharing)
 - [L1-T2](https://drive.google.com/drive/folders/1w9TO-uKuTWVfd6hgKArO5QHnLKfknPa8?usp=sharing)
