@@ -1,0 +1,42 @@
+{
+    "SHEET_ID": "1HCQMeqnhiBWMs69CmuT_zrs9kyq03oQm90zL2Uqkxi0",
+    "SHEET_BASEURL": "https://sheets.googleapis.com/v4/spreadsheets",
+    "API_KEY": "AIzaSyABCH_RDZQAp46P3dXfiyTTfZPDfT3wPJ8",
+    "SHEETS_NAME": {
+        "class": "web_classes",
+        "file": "web_files",
+        "notice": "web_notices"
+    },
+    "DRIVE_LINK": [
+        {
+            "name": "1-1",
+            "link": "https://drive.google.com/drive/folders/1TWaqAHNZIpYP3guBF7XLFtpoYuk0MZQO",
+            "senior_link": "#"
+        },
+        {
+            "name": "1-2",
+            "link": "https://drive.google.com/drive/folders/1w9TO-uKuTWVfd6hgKArO5QHnLKfknPa8?usp=sharing",
+            "senior_link": "https://drive.google.com/drive/folders/0B4gH3jkxIXNbSGd4WXZ2QjVxazA?resourcekey=0-0U6vRg7CxZdyoVIPXRM_-w&usp=sharing"
+        },
+        {
+            "name": "2-1",
+            "link": "https://drive.google.com/drive/folders/1VCIfv7P1dBOVd_DlGDUJHenhGQGRtJHB?usp=sharing",
+            "senior_link": "https://drive.google.com/drive/folders/1ilagieaHYHCfrQxIQ5xAHE7PuVnL5CzM?usp=sharing"
+        },
+        {
+            "name": "2-2",
+            "link": "https://drive.google.com/drive/folders/17JenlAiKd-Wn2Tx_QkHJhxQj8B528AZJ",
+            "senior_link": "https://drive.google.com/drive/folders/1-U7etGqfzdaOJZ-nV7Y4ykg5AeqdTyXQ?usp=sharing"
+        },
+        {
+            "name": "3-1",
+            "link": "https://drive.google.com/drive/folders/1UhQBQ-OBj_iZbtyFnG_S3rM-AXx9uvSY?usp=sharing",
+            "senior_link": "https://drive.google.com/drive/folders/1Oo2TapOaPe7S1jFYrccDowvze9wwqt8x?usp=sharing"
+        },
+        {
+            "name": "3-2",
+            "link": "https://drive.google.com/drive/folders/1YWVpCBFEIxGZo2eibGeIVjmn23fr5z2N?usp=sharing",
+            "senior_link": "https://drive.google.com/drive/folders/1z4w_gNbP53B3PWmrFPu8qdplbqqyb3Jo?usp=sharing"
+        }
+    ]
+}
