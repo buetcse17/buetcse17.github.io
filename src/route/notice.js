@@ -34,7 +34,7 @@ class NoticeView extends React.Component {
                     <div className="container">
                         <div className="vertical-padding"></div>
                         <div className="vertical-padding"></div>
-                        <h2><i class="bi bi-bell"></i> Notice Board</h2>
+                        <h2><i className="bi bi-bell"></i> Notice Board</h2>
                         <div className="vertical-padding"></div>
                         {
                             sheetData.map((each, index) => {

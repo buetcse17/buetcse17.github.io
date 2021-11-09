@@ -2,13 +2,13 @@ import React from "react";
 import { DRIVE_LINK } from "../config.json";
 
 
-const HomeView = () => {
+const DriveView = () => {
     return (
         <React.Fragment>
             <div className="container">
                 <div className="vertical-padding"></div>
                 <div className="vertical-padding"></div>
-                <h2><i class="bi bi-file-earmark-text"></i> Files</h2>
+                <h2><i className="bi bi-file-earmark-text"></i> Files</h2>
 
                 <div className="vertical-padding"></div>
                 <table className="table table-striped">
@@ -46,4 +46,4 @@ const HomeView = () => {
     );
 }
 
-export default HomeView;
+export default DriveView;
