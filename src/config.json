@@ -3,9 +3,11 @@
     "SHEET_BASEURL": "https://sheets.googleapis.com/v4/spreadsheets",
     "API_KEY": "AIzaSyABCH_RDZQAp46P3dXfiyTTfZPDfT3wPJ8",
     "SHEETS_NAME": {
-        "class": "web_classes",
-        "file": "web_files",
-        "notice": "web_notices"
+        "class": "classes",
+        "file": "files",
+        "notice": "notices",
+        "routine": "routine",
+        "linklist": "link_list"
     },
     "DRIVE_LINK": [
         {
