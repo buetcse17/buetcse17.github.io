@@ -1,14 +1,11 @@
 {
+    "CACHE_INTERVAL": 30000,
+    "CACHE_COMMENT": " ^ this is in milliseconds",
+
     "SHEET_ID": "1HCQMeqnhiBWMs69CmuT_zrs9kyq03oQm90zL2Uqkxi0",
     "SHEET_BASEURL": "https://sheets.googleapis.com/v4/spreadsheets",
     "API_KEY": "AIzaSyABCH_RDZQAp46P3dXfiyTTfZPDfT3wPJ8",
-    "SHEETS_NAME": {
-        "teachers_info": "teachers_info",
-        "file": "files",
-        "notice": "notices",
-        "routine": "routine",
-        "linklist": "link_list"
-    },
+    
     "DRIVE_LINK": [
         {
             "name": "1-1",
