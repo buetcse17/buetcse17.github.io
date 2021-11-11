@@ -31,3 +31,7 @@ code {
 .home-box:hover {
   color: grey;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  color: red;
+}

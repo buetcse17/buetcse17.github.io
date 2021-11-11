@@ -46,7 +46,7 @@ class TableView extends React.Component {
         if (ready) {
             return (
                 <div className="table-responsive">
-                    <table className="table table-borderless">
+                    <table className="table table-hover">
                         <thead>
                             <tr>
                                 <th scope="col"><h6>Day</h6></th>
@@ -55,8 +55,8 @@ class TableView extends React.Component {
                                 <th scope="col"><h6>10 AM</h6></th>
                                 <th scope="col"><h6>11 AM</h6></th>
                                 <th scope="col"><h6>12 PM</h6></th>
-                                <th scope="col"><h6>Lab 1</h6></th>
-                                <th scope="col"><h6>Lab 2</h6></th>
+                                <th scope="col"><h6> Lab 1<br/>(11-1)</h6></th>
+                                <th scope="col"><h6> Lab 2<br/>(2-5)</h6></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -84,11 +84,19 @@ class TableView extends React.Component {
                                                     }
                                                     else {
                                                         if (cell) {
+                                                            if(cell == "CT"){
+                                                                return (<td key={index}>
+                                                                    <a className="btn btn-danger btn-sm">
+                                                                        {cell}
+                                                                    </a>
+                                                                </td>
+                                                                )                                                          
+                                                            }
                                                             return (
                                                                 <td key={index}>{cell}</td>
                                                             )
                                                         }
-                                                        return <td key={index}>{""}</td>;
+                                                        return <td key={index}>{""}</td>
                                                     }
                                                 })
                                             }

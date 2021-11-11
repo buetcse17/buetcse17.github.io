@@ -8,7 +8,7 @@ const DriveView = () => {
             <div className="container">
                 <div className="vertical-padding"></div>
                 <div className="vertical-padding"></div>
-                <h2><i className="bi bi-file-earmark-text"></i> Files</h2>
+                <h2><i className="bi bi-hdd-fill"></i> Drive</h2>
 
                 <div className="vertical-padding"></div>
                 <table className="table table-striped">
