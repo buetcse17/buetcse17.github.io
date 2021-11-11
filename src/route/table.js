@@ -46,7 +46,7 @@ class TableView extends React.Component {
         if (ready) {
             return (
                 <div className="table-responsive">
-                    <table className="table table-hover">
+                    <table className="table table-hover text-center">
                         <thead>
                             <tr>
                                 <th scope="col"><h6>Day</h6></th>
@@ -55,8 +55,8 @@ class TableView extends React.Component {
                                 <th scope="col"><h6>10 AM</h6></th>
                                 <th scope="col"><h6>11 AM</h6></th>
                                 <th scope="col"><h6>12 PM</h6></th>
-                                <th scope="col"><h6> Lab 1<br/>(11-1)</h6></th>
-                                <th scope="col"><h6> Lab 2<br/>(2-5)</h6></th>
+                                <th scope="col"><h6>1 PM</h6></th>
+                                <th scope="col"><h6>2 PM</h6></th>
                             </tr>
                         </thead>
                         <tbody>
