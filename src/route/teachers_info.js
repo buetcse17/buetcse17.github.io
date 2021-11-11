@@ -4,7 +4,7 @@ import axios from "axios";
 
 
 const sheetName = SHEETS_NAME.teachers_info;
-const range = "A2:F12";
+const range = "A2:E35";
 const url = `${SHEET_BASEURL}/${SHEET_ID}/values/${sheetName}!${range}?key=${API_KEY}`;
 
 
@@ -51,8 +51,8 @@ class TeachersInfoView extends React.Component {
                                     sheetData.map((each, index) => {
                                         return (
                                             <tr key={index}>
-                                                <td>{each[0]}</td>
-                                                <td>{each[1]}</td>
+                                                <td><b>{each[0]}</b></td>
+                                                <td><i>{each[1]}</i></td>
                                                 <td>{each[2]}</td>
                                                 <td>{each[3]}</td>
                                                 <td>{each[4]}</td>
