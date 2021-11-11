@@ -6,6 +6,8 @@ import NoticeView from "./route/notice";
 import RoutineView from "./route/routine";
 import DriveView from "./route/drive";
 import FileView from './route/files';
+import TeachersInfoView from './route/teachers_info';
+
 
 const rootElement = document.getElementById("root");
 
@@ -23,6 +25,9 @@ ReactDOM.render(
             <button className="nav-link active text-white" id="pills-routine-tab" data-bs-toggle="pill" data-bs-target="#pills-routine" type="button" role="tab" aria-controls="pills-routine" aria-selected="true">Routine</button>
           </li>
           <li className="nav-item" role="presentation">
+            <button className="nav-link text-white" id="pills-info-tab" data-bs-toggle="pill" data-bs-target="#pills-info" type="button" role="tab" aria-controls="pills-info" aria-selected="false">Teachers' Info</button>
+          </li>
+          <li className="nav-item" role="presentation">
             <button className="nav-link text-white" id="pills-drive-tab" data-bs-toggle="pill" data-bs-target="#pills-drive" type="button" role="tab" aria-controls="pills-drive" aria-selected="false">Drive</button>
           </li>
           <li className="nav-item" role="presentation">
@@ -38,6 +43,9 @@ ReactDOM.render(
     <div className="tab-content" id="pills-tabContent">
       <div className="tab-pane fade show active" id="pills-routine" role="tabpanel" aria-labelledby="pills-routine-tab">
         <RoutineView></RoutineView>
+      </div>
+      <div className="tab-pane fade" id="pills-info" role="tabpanel" aria-labelledby="pills-info-tab">
+        <TeachersInfoView></TeachersInfoView>
       </div>
       <div className="tab-pane fade" id="pills-drive" role="tabpanel" aria-labelledby="pills-drive-tab">
         <DriveView></DriveView>

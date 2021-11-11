@@ -3,7 +3,7 @@
     "SHEET_BASEURL": "https://sheets.googleapis.com/v4/spreadsheets",
     "API_KEY": "AIzaSyABCH_RDZQAp46P3dXfiyTTfZPDfT3wPJ8",
     "SHEETS_NAME": {
-        "class": "classes",
+        "teachers_info": "teachers_info",
         "file": "files",
         "notice": "notices",
         "routine": "routine",
