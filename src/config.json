@@ -1,4 +1,6 @@
 {
+    "MOODLE_IP": "https://103.94.135.159/",
+
     "CACHE_INTERVAL": 30000,
     "CACHE_COMMENT": " ^ this is in milliseconds",
 
