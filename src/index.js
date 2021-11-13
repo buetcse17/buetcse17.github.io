@@ -34,7 +34,7 @@ ReactDOM.render(
             <button className="nav-link text-white" id="pills-file-tab" data-bs-toggle="pill" data-bs-target="#pills-file" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Files</button>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" type="button" href={MOODLE_URL_IP} target="_blank" rel="noreferrer">Moodle (IP)</a>
+            <a className="nav-link text-white" type="button" href={MOODLE_IP} target="_blank" rel="noreferrer">Moodle (IP)</a>
           </li>
         </ul>
       </div>
