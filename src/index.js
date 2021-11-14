@@ -3,11 +3,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import FileView from './route/files';
+import BooksView from "./route/books";
 import DriveView from "./route/drive";
 import RoutineView from "./route/routine";
 import ClassLinkView from "./route/class-link";
 import { MOODLE_IP } from "./config.json";
-
 
 const rootElement = document.getElementById("root");
 
@@ -31,7 +31,10 @@ ReactDOM.render(
             <button className="nav-link text-white" id="pills-drive-tab" data-bs-toggle="pill" data-bs-target="#pills-drive" type="button" role="tab" aria-controls="pills-drive" aria-selected="false">Drive</button>
           </li>
           <li className="nav-item" role="presentation">
-            <button className="nav-link text-white" id="pills-file-tab" data-bs-toggle="pill" data-bs-target="#pills-file" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Files</button>
+            <button className="nav-link text-white" id="pills-books-tab" data-bs-toggle="pill" data-bs-target="#pills-books" type="button" role="tab" aria-controls="pills-books" aria-selected="false">Books</button>
+          </li>
+          <li className="nav-item" role="presentation">
+            <button className="nav-link text-white" id="pills-file-tab" data-bs-toggle="pill" data-bs-target="#pills-file" type="button" role="tab" aria-controls="pills-files" aria-selected="false">Files</button>
           </li>
           <li className="nav-item">
             <a className="nav-link text-white" type="button" href={MOODLE_IP} target="_blank" rel="noreferrer">Moodle (IP)</a>
@@ -42,16 +45,19 @@ ReactDOM.render(
 
     <div className="tab-content" id="pills-tabContent">
       <div className="tab-pane fade show active" id="pills-routine" role="tabpanel" aria-labelledby="pills-routine-tab">
-        <RoutineView></RoutineView>
+        <RoutineView/>
       </div>
       <div className="tab-pane fade" id="pills-class-link" role="tabpanel" aria-labelledby="pills-class-link-tab">
-        <ClassLinkView />
+        <ClassLinkView/>
       </div>
       <div className="tab-pane fade" id="pills-drive" role="tabpanel" aria-labelledby="pills-drive-tab">
-        <DriveView></DriveView>
+        <DriveView/>
+      </div>
+      <div className="tab-pane fade" id="pills-books" role="tabpanel" aria-labelledby="pills-books-tab">
+        <BooksView/>
       </div>
       <div className="tab-pane fade" id="pills-file" role="tabpanel" aria-labelledby="pills-file-tab">
-        <FileView></FileView>
+        <FileView/>
       </div>
     </div>
   </div>,
