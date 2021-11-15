@@ -6,6 +6,7 @@ import FileView from './route/files';
 import BooksView from "./route/books";
 import DriveView from "./route/drive";
 import RoutineView from "./route/routine";
+import MoodleView from './route/moodle';
 import ClassLinkView from "./route/class-link";
 import { MOODLE_IP } from "./config.json";
 
@@ -36,6 +37,10 @@ ReactDOM.render(
           <li className="nav-item" role="presentation">
             <button className="nav-link text-white" id="pills-file-tab" data-bs-toggle="pill" data-bs-target="#pills-file" type="button" role="tab" aria-controls="pills-files" aria-selected="false">Files</button>
           </li>
+          <li className="nav-item" role="presentation">
+            <button className="nav-link text-white" id="pills-moodle-tab" data-bs-toggle="pill" data-bs-target="#pills-moodle" type="button" role="tab" aria-controls="pills-moodle" aria-selected="false">MoodleX</button>
+          </li>
+          
           <li className="nav-item">
             <a className="nav-link text-white" type="button" href={MOODLE_IP} target="_blank" rel="noreferrer">Moodle (IP)</a>
           </li>
@@ -59,7 +64,15 @@ ReactDOM.render(
       <div className="tab-pane fade" id="pills-file" role="tabpanel" aria-labelledby="pills-file-tab">
         <FileView/>
       </div>
+      <div className="tab-pane fade" id="pills-moodle" role="tabpanel" aria-labelledby="pills-moodle-tab">
+        <MoodleView/>
+      </div>
     </div>
+
+    <div className="vertical-padding"></div>
+    <div className="vertical-padding"></div>
+    <div className="vertical-padding"></div>
+  
   </div>,
 
   rootElement
