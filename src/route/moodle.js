@@ -96,7 +96,7 @@ class MoodleView extends React.Component {
                     <div className="container">
                         <div className="vertical-padding"></div>
                         <div className="vertical-padding"></div>
-                        <h2><i className="bi bi-book"></i> Moodle X</h2>
+                        <h2><i className="bi door-open-fill"></i> Moodle X</h2>
 
                         <div className="vertical-padding"></div>
                         <div className="table-responsive">
